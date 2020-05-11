@@ -1,0 +1,21 @@
+{
+    "name": "picturethumb/zzhpicturethumb",
+    "description": "图片压缩不失真",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "张振华",
+            "email": "2593481502@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=7.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"zzhPictureThumb\\": "src/zzhPictureThumb"
+    	}
+    }
+}
